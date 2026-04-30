@@ -5,9 +5,6 @@ Name of task:
 console.log("Running t01_introduction.js")
 
 //variables
-var goon_count = 1; console.log("1");
-goon_count = 7; console.log ("there are "+goon_count+" gooners");
-
 var whats = 2; console.log (whats)
 console.log ("bro what are  you on about")
 console.log
