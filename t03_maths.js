@@ -12,7 +12,7 @@ var year = 2026;
 var age = 15;
 var money = 14;
 var user = "certified-dumbass";
-console.log ("hello "+user+ " the year is "+ year + " you are " + age + " years old, and you have "+ money +" dollars in your bank account")
+console.log ("hello "+user+ " the year is "+ year + " you are " + age + " years old, and you have "+ money +" dollars in your bank account");
 /********************
  Main code
  ********************/
