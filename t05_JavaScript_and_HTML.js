@@ -14,7 +14,7 @@ let halfMoney= money / 2;
 /*****************************
  Main code
  ****************************/
-const OUTPUT = document.getElementById("JavaScriptOutput");
+const OUTPUT = document.getElementById("spaceforJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 console.log("Hi " + username + " as of " + year + " you are " + age + " years old")
 console.log("You were born in " + birthYear )
