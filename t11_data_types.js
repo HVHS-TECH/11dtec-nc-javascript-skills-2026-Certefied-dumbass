@@ -24,7 +24,7 @@ function getFormInput(){
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 }
-let userAge = NAME_FIELD.value;
+let userAge = number(AGE_FIELD.value);
 function getFormInput(){
   const AGE_FIELD = document.getElementById("userAge");
   let userAge = AGE_FIELD.value;
