@@ -26,9 +26,9 @@ function getFormInput(){
 }
 let userAge = NAME_FIELD.value;
 function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  let userAge = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
+  const AGE_FIELD = document.getElementById("nameField");
+  let userAge = AGE_FIELD.value;
+  OUTPUT.innerHTML = "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
 }
 writeline()
 imag()
