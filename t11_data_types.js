@@ -28,7 +28,7 @@ let userAge = NAME_FIELD.value;
 function getFormInput(){
   const AGE_FIELD = document.getElementById("nameField");
   let userAge = AGE_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
+  OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
 }
 writeline()
 imag()
