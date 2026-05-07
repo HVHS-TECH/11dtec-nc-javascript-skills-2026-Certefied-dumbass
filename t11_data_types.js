@@ -24,7 +24,12 @@ function getFormInput(){
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 }
-
+let userAge = NAME_FIELD.value;
+function getFormInput(){
+  const NAME_FIELD = document.getElementById("nameField");
+  let userAge = NAME_FIELD.value;
+  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
+}
 writeline()
 imag()
 welcome("loser", 15)
