@@ -15,7 +15,7 @@ let halfMoney= money / 2;
  Main code
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h2>rizz</h2> <img src='boykisser-brick.gif'>";
+OUTPUT.innerHTML = "<h2>rizz</h2>"; OUTPUT.innerHTML += "<img src=boykisser-brick.gif></img>"
 OUTPUT.innerHTML += ("Hi " + username + " as of " + year + " you are " + age + " years old")
 OUTPUT.innerHTML += ("You were born in " + birthYear )
 OUTPUT.innerHTML += ("In 10 years you will be " + (age + 10) + " years old")
