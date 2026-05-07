@@ -5,7 +5,7 @@ Name of task:maths
 ****************************/
 
 //variables
-let username = userName ;
+let username = "userName" ;
 let year=2025;
 let age=15;
 let money=10;
