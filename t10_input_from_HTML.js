@@ -3,7 +3,13 @@
 /****************************
 Name of task:maths
 ****************************/
-
+//variables
+let username = "userName" ;
+let year=2025;
+let age=15;
+let money=10;
+let birthYear= year - age;
+let halfMoney= money / 2;
 
 
 /*****************************
@@ -19,13 +25,6 @@ function getFormInput(){
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 }
-//variables
-let username = NAME_FIELD.value ;
-let year=2025;
-let age=15;
-let money=10;
-let birthYear= year - age;
-let halfMoney= money / 2;
 
 writeline()
 imag()
