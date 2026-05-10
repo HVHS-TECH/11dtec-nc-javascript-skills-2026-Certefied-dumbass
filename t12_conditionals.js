@@ -28,6 +28,9 @@ function getFormInput(){
   let userAge = number(AGE_FIELD.value);
   OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
 }
+if (userName == "Louie"){
+OUTPUT.innerHTML += "<p>Stop lying</p>"
+}
 writeline()
 // imag()
 welcome("loser", 15)
