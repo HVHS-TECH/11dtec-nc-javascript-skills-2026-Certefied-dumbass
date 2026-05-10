@@ -17,12 +17,10 @@ let halfMoney= money / 2;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
 function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  let userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
+  const NAME_FIELD = document.getElementById("nameField").value;
+  let userName = NAME_FIELD;
+  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P"</p>";
 }
 let userAge = number(AGE_FIELD.value);
 function getFormInput(){
