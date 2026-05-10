@@ -22,7 +22,7 @@ function getFormInput(){
   let userName = NAME_FIELD;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 if (userName == "Louie"){
-OUTPUT.innerHTML += "<p>Stop lying</p>";
+OUTPUT.innerHTML = "<p>Stop lying</p>";
 
 function getFormOutput(){
   const AGE_FIELD = document.getElementById("userAge");
