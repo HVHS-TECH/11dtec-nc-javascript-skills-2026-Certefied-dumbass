@@ -20,7 +20,7 @@ OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField").value;
   let userName = NAME_FIELD;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P"</p>";
+  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 }
 let userAge = number(AGE_FIELD.value);
 function getFormInput(){
