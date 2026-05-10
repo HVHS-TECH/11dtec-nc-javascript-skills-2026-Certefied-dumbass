@@ -23,13 +23,13 @@ function getFormInput(){
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 if (userName == "Louie"){
 OUTPUT.innerHTML += "<p>Stop lying</p>"
-}
-}
 
 function getFormInput(){
   const AGE_FIELD = document.getElementById("userAge");
   let userAge = number(AGE_FIELD.value);
   OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
+}
+}
 }
 
 writeline()
