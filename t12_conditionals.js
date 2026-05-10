@@ -24,16 +24,10 @@ function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
-if (userName == "Louie"){
+if (userName == "Louie")
   OUTPUT.innerHTML += "<p>Stop lying</p>";
 }
-}
-let userAge = number(AGE_FIELD.value);
-function getFormInput(){
-  const AGE_FIELD = document.getElementById("userAge");
-  let userAge = AGE_FIELD.value;
-  OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
-}
+
 
 
 writeline()
