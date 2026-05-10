@@ -1,5 +1,4 @@
 /* Paste your code from the last task */
-/* Paste your code from the last task */
 /****************************
 Name of task:maths
 ****************************/
@@ -18,7 +17,6 @@ let halfMoney= money / 2;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
-
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 function getFormInput(){
@@ -26,9 +24,12 @@ function getFormInput(){
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 }
-
-
-
+let userAge = number(AGE_FIELD.value);
+function getFormInput(){
+  const AGE_FIELD = document.getElementById("userAge");
+  let userAge = AGE_FIELD.value;
+  OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
+}
 writeline()
 imag()
 welcome("loser", 15)
