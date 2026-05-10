@@ -29,7 +29,7 @@ function getFormInput(){
   OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
 }
 writeline()
-imag()
+// imag()
 welcome("loser", 15)
  /**************************
   Functions
@@ -37,10 +37,10 @@ welcome("loser", 15)
  function writeline(){
     OUTPUT.innerHTML += "<p> i LUV twinkz </p>";
  }
- function imag(){
+//  function imag(){
 
-    OUTPUT.innerHTML += " <img src='boykisser-brick.gif'> ";
- }
+//     OUTPUT.innerHTML += " <img src='boykisser-brick.gif'> ";
+//  }
  function welcome(_name,_age){
     OUTPUT.innerHTML += "<p>Hello, welcome to the page "+_name+" </p>"
 OUTPUT.innerHTML += "<p>You are"+_age+" </p>"
