@@ -10,13 +10,13 @@ let age=15;
 let money=10;
 let birthYear= year - age;
 let halfMoney= money / 2;
-let pay = 20
+
 
 /*****************************
  Main code
  ****************************/
 function calculatepay(_hours){
-    
+ let pay = _hours * 18.80   
 }
 
 
