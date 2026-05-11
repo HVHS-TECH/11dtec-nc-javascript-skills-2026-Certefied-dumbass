@@ -32,11 +32,6 @@ function getFormInput(){
 if (userName == "Louie"){
 OUTPUT.innerHTML = "<p>Copycat</p>";
 
-function getFormOutput(){
-  const AGE_FIELD = document.getElementById("userAge");
-  let userAge = number(AGE_FIELD.value);
-  OUTPUT.innerHTML += "<p>Your age is "+userAge+", welcome "+userName+":P</p>";
-}
 }
 }
 function getFormpay(){
