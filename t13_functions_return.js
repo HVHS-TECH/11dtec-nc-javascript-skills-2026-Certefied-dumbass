@@ -39,7 +39,10 @@ function getFormOutput(){
 }
 }
 }
-
+function getFormpay(){
+  const _hours = document.getElementById("nameField").value;
+  let userName = NAME_FIELD;
+  OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 writeline()
 // imag()
 welcome("loser", 15)
