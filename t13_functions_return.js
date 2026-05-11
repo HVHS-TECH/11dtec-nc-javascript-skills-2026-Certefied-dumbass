@@ -15,6 +15,10 @@ let pay = 20
 /*****************************
  Main code
  ****************************/
+function calculatepay(_hours){
+    
+}
+
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
