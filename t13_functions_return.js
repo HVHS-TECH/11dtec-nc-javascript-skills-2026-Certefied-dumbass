@@ -42,7 +42,7 @@ function getFormOutput(){
 function getFormpay(){
   const _hours = document.getElementById("userpay").value;
   _hours = PAY_FIELD;
-cons}
+console.log}
 writeline()
 // imag()
 welcome("loser", 15)
