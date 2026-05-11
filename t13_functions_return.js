@@ -16,8 +16,11 @@ let halfMoney= money / 2;
  Main code
  ****************************/
 function calculatepay(_hours){
- let pay = _hours * 18.80   
+ let pay = _hours * 18.80 ;  
+pay = pay * 0.895;
+
 }
+
 
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
