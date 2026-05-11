@@ -18,7 +18,7 @@ let halfMoney= money / 2;
 function calculatepay(_hours){
  let pay = _hours * 18.80 ;  
 pay = pay * 0.895;
-
+return pay;
 }
 
 
