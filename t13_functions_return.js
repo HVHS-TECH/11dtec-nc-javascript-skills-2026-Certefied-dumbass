@@ -39,7 +39,8 @@ function calculatepay(_hours){
 pay = pay * 0.895;
 OUTPUT.innerHTML = "<p>you earned " +pay+" dollars this week </p>"
 return pay;
-}writeline()
+}
+writeline()
 // imag()
 welcome("loser", 15)
  /**************************
