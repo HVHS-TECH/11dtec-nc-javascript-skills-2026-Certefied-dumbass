@@ -33,7 +33,7 @@ OUTPUT.innerHTML = "<p>Copycat</p>";
 function getFormpay(){
   const PAY_FIELD = document.getElementById("userpay");
  let _hours = Number(PAY_FIELD.value);
-console.log (_hours); }
+calculatepay(_hours); }
 function calculatepay(_hours){
  let pay = _hours * 18.80 ;  
 pay = pay * 0.895;
