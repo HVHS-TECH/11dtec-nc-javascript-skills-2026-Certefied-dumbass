@@ -31,8 +31,8 @@ OUTPUT.innerHTML = "<p>Copycat</p>";
 }
 }
 function getFormpay(){
-  const PAY_FIELD = document.getElementById("userpay").value;
- let _hours = Number(PAY_FIELD);
+  const PAY_FIELD = document.getElementById("userpay");
+ let _hours = Number(PAY_FIELD.value);
 console.log (_hours); }
 function calculatepay(_hours){
  let pay = _hours * 18.80 ;  
