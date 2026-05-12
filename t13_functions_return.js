@@ -15,11 +15,7 @@ let halfMoney= money / 2;
 /*****************************
  Main code
  ****************************/
-function calculatepay(_hours){
- let pay = _hours * 18.80 ;  
-pay = pay * 0.895;
-return pay;
-}
+
 
 
 
@@ -38,7 +34,12 @@ function getFormpay(){
   const PAY_FIELD = document.getElementById("userpay").value;
   _hours = PAY_FIELD;
 console.log (_hours); }
-writeline()
+function calculatepay(_hours){
+ let pay = _hours * 18.80 ;  
+pay = pay * 0.895;
+OUTPUT.innerHTML = "<p>you earned " +pay+" dollars this week </p>"
+return pay;
+}writeline()
 // imag()
 welcome("loser", 15)
  /**************************
