@@ -31,6 +31,7 @@ if (userName == "Scarlett"){
 OUTPUT.innerHTML = "<p>wsg scarlett</p>";
 }
 }
+}
 function getFormpay(){
   const PAY_FIELD = document.getElementById("userpay");
  let _hours = Number(PAY_FIELD.value);
