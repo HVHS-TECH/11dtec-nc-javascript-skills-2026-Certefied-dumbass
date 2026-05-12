@@ -27,7 +27,8 @@ function getFormInput(){
   OUTPUT.innerHTML = "<p>Your name is "+userName+", welcome "+userName+":P</p>";
 if (userName == "Louie"){
 OUTPUT.innerHTML = "<p>Copycat</p>";
-
+if (userName == "Scarlett"){
+OUTPUT.innerHTML = "<p>wsg scarlett</p>";
 }
 }
 function getFormpay(){
