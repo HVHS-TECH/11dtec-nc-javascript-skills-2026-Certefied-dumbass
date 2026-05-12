@@ -35,7 +35,7 @@ OUTPUT.innerHTML = "<p>Copycat</p>";
 }
 }
 function getFormpay(){
-  const _hours = document.getElementById("userpay").value;
+  const PAY_FIELD = document.getElementById("userpay").value;
   _hours = PAY_FIELD;
 console.log (_hours); }
 writeline()
