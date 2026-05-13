@@ -16,7 +16,7 @@ let halfMoney= money / 2;
 /*****************************
  Main code
  ****************************/
-
+let funny_array = ["you are a boring person", "you arent correct", "why not more", "correct", "thats not in the range dummy"]
 
 
 
