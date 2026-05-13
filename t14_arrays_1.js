@@ -18,12 +18,12 @@ let halfMoney= money / 2;
  ****************************/
 let funny_array = ["you are a boring person", "you arent correct", "why not more", "correct", "thats not in the range dummy"]
 
-function getformgame(){
+function getFormgame(){
 const GAME_FIELD = document.getElementById("usergame");
 let array_guide = Number(GAME_FIELD.value);
 if (array_guide == 0 ){ console.log(funny_array [0]) }
-
 }
+
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
