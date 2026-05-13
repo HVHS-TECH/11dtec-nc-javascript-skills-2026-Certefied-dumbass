@@ -22,13 +22,14 @@ function getFormgame(){
 const GAME_FIELD = document.getElementById("usergame");
 let array_guide = Number(GAME_FIELD.value);
 if (array_guide == 0 ){ console.log(funny_array [0]) ;
-}if (array_guide == 1); console.log(funny_array [1])  ;
+}
+if (array_guide == 1);{ console.log(funny_array [1])  ;
 }
 if (array_guide == 2){ console.log(funny_array [2]) ;
 }
- if(array_guide == 3); console.log(funny_array [3]) ;
-
-
+ if(array_guide == 3){ console.log(funny_array [3]) ;
+ }
+}
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<button onClick=";start();">START</button>";
